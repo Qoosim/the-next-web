@@ -143,26 +143,9 @@ header {
     grid-row: 2 / 3;
 }
 
-.news-article h3 a {
-    margin-left: 80px;
-    padding: 15px;
-    color: #f42;
-    text-decoration:none;
-    font: 700 27px/30px 'Segoe UI', Tahoma, Verdana, sans-serif;
-}
-
-.news-article h3 a:hover {
-    color: #000;
-}
-
-#arrow {
-    font-size: 35px;
-}
-
 .latest-news {
-    height: 500px;
     width: 1200px;
-    margin: 80px auto 50px auto;
+    margin: 0px auto 80px auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -175,7 +158,25 @@ header {
     height: 260px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+.info-link {
+    width: 1260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#add-info a {
+    color: #f42;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#add-info a:hover {
+    color: #000;
 }
 
 .outer-control a {
@@ -191,6 +192,25 @@ header {
     text-decoration: underline;
 }
 
+.header-link {
+    margin-bottom: 20px;
+}
+
+.header-link a {
+    margin-left: 85px;
+    color: #f42;
+    text-decoration: none;
+    font: 700 27px/30px 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.header-link a:hover {
+    color: #000;
+}
+
+.id-arrow {
+    font-size: 35px;
+}
+
 .news {
     height: 140px;
     width: 280px;
@@ -202,6 +222,7 @@ header {
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
+    cursor: pointer;
 }
 
 .crypto {
@@ -209,6 +230,7 @@ header {
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
+    cursor: pointer;
 }
 
 .ethereum {
@@ -216,6 +238,7 @@ header {
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
+    cursor: pointer;
 }
 
 .skype {
@@ -223,6 +246,7 @@ header {
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
+    cursor: pointer;
 }
 
 .apple {
@@ -230,6 +254,7 @@ header {
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
+    cursor: pointer;
 }
 
 .coders {
@@ -237,6 +262,7 @@ header {
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
+    cursor: pointer;
 }
 
 .conversion {
@@ -244,6 +270,7 @@ header {
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
+    cursor: pointer;
 }
 
 .cheap {
@@ -251,6 +278,39 @@ header {
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
+    cursor: pointer;
+}
+
+.duo {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/597d12de5f1604078c51be9c3b365e60-452x270.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.dual-screen {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/EF4hwt-W4AILDL9-480x270.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.teases {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Windows-10X-517x270.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.arm {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/MicrosoftSurfaceProx-512x270.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
 }
 
 .inner-p {
