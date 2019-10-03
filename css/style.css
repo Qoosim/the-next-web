@@ -110,12 +110,15 @@ header {
     grid-template-rows: auto;
     grid-gap: 10px;
 }
-/* background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png") no-repeat; */
 
 .cover-img {
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/bl3feat-796x448.jpg") no-repeat;
+    /* background: 
+    linear-gradient((-35deg,  rgba(0,0,0,1), rgba(255,116,0,0.8));
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/bl3feat-796x448.jpg");
+    background-repeat: no-repeat;
     background-position: 0 0;
-    background-position: cover;
+    background-position: cover; */
+    background-color: blueviolet;
     grid-column: 1 / 3;
     grid-row: 1 / 3;
     position: relative;
@@ -141,4 +144,40 @@ header {
     background: cadetblue;
     grid-column: 3 / 4;
     grid-row: 2 / 3;
+}
+
+.latest-news {
+    height: 500px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around; 
+    margin: 120px 25px;
+}
+
+.news {
+    height: 200px;
+    width: 300px;
+    background-color: #000;
+    margin-right: 10px;
+}
+
+.control {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/syndication2-516x270.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.crypto {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/bitcoin-missouri-cryptocurrency-516x270.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.ethereum {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin-ethereum-cryptocurrency-blockchain-scam-private-key-hard-fork-480x270.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
