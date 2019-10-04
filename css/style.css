@@ -352,41 +352,74 @@ header {
     height: 60px;
 }
 
-.vega {
+.vega-div {
     width: 280px;
-    height: 300px;
+    height: 350px;
     position: relative;
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
 }
 
-#vega {
+.vega {
     background: #f42;
     padding: 8px;
 }
 
-#vega h4 {
+.vega h4 {
     font-size: 20px;
     color: #fff;
     margin-left: 80px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#million {
+.million {
     background: #ffd7d5;
-    padding: 5px;
+    padding: 8px;
 }
 
-#million h4 {
-    margin-left: 89px;
-}
-
-#seed {
-    background: #ffd7d5;
-    padding: 10px;
-}
-
-#seed h5 {
-    margin-top: -10px;
+.million h4,
+.million h5 {
     margin-left: 83px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.million h5 {
+    color: #999;
+    text-transform: uppercase;
+}
+
+.finance {
+    border-bottom: 1px solid #ffd7d5;
+    padding: 10px;
+    background: rgba(255,243,241, 0.5);
+}
+
+.finance span,
+.protocol span {
+    display: block;
+    line-height: 30px;
+}
+
+.protocol {
+    background: rgba(255,243,241, 0.5);
+    padding: 10px;
+    height: 120px;
+}
+
+.protocol a {
+    line-height: 25px;
+    margin-top: 13px;
+    color: #666;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.protocol span {
+    color: #999;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
 }
