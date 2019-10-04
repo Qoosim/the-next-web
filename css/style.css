@@ -179,6 +179,21 @@ header {
     color: #000;
 }
 
+#info {
+    border-right: 1px solid #f42;
+    padding-right: 10px;
+}
+
+#email {
+    border-right: 1px solid #f42;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+#see-more {
+    padding-left: 5px;
+}
+
 .outer-control a {
     color: #000;
     text-decoration: none;
@@ -327,4 +342,51 @@ header {
 .inner-p a:hover {
     color: #818181;
     text-decoration: none;
+}
+
+.card {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.vega {
+    width: 280px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+#vega {
+    background: #f42;
+    padding: 8px;
+}
+
+#vega h4 {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 80px;
+}
+
+#million {
+    background: #ffd7d5;
+    padding: 5px;
+}
+
+#million h4 {
+    margin-left: 89px;
+}
+
+#seed {
+    background: #ffd7d5;
+    padding: 10px;
+}
+
+#seed h5 {
+    margin-top: -10px;
+    margin-left: 83px;
 }
