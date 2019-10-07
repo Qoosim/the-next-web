@@ -439,7 +439,6 @@ header {
     height: 700px;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
 }
 
 .popular-img1 {
@@ -477,9 +476,10 @@ header {
 }
 
 .text-in {
+    position: absolute;
+    top: 12px;
+    left: 10px;
     width: 250px;
-    margin-top: 12px;
-    margin-left: 10px;
 }
 
 .text-in h5 {
@@ -500,7 +500,7 @@ header {
     text-decoration: underline;
 }
 
-.img-in {
+.img-in1 {
     position: absolute;
     top: 0;
     right: 0;
@@ -513,14 +513,38 @@ header {
     cursor: pointer;
 }
 
+.img-in2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 90px;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Apple-TV-back-to-the-future-header-image.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.img-in3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 90px;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/200-calories-3-1.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    cursor: pointer;
+}
+
 ul a {
-    list-style-type: none;
     text-decoration: none;
     color: #999;
     font-size: 15px;
     font-weight: lighter;
     line-height: 27px;
-    /* margin-left:10px;  */
     padding: 5px;
 }
 
@@ -528,11 +552,13 @@ ul li::before {
     content: "\2022";
     color: #f42;
     font-weight: bolder;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
 }
+
 .inner-list {
-    border-top: 1px solid #999;
-    /* margin-right: 5px; */
+    width: 100%;
+    border-bottom: 1px solid #aaa;
+    list-style-type: none;
+    list-style-position: outside;
+    text-align: left;
+    display: inline-block;
 }
