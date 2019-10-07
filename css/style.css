@@ -155,7 +155,7 @@ header {
 
 .outer-control {
     width: 280px;
-    height: 260px;
+    line-height: 25px;
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
@@ -427,7 +427,7 @@ header {
 
 .popular {
     width: 1200px;
-    margin: 0 auto;
+    margin: -150px auto 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -436,17 +436,17 @@ header {
 
 .most-popular {
     width: 380px;
-    height: 700px;
+    /* height: 780px; */
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-bottom: 35px;
+    padding-bottom: 35px;
 }
 
 .most-popular h3 a {
     color: #f42;
     text-decoration: none;
-    font: 700 27px 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font: 700 27px/50px 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 .most-popular h3 a:hover {
@@ -470,11 +470,12 @@ header {
 
 .inside-text p a {
     font-size: 18px;
-    font-family : -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 800;
     color: #fff;
     text-decoration: none;
 }
+
 .inside-text p a:hover {
     text-decoration: underline #999;
 }
@@ -540,6 +541,24 @@ header {
 .popular-img6 {
     height: 300px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/libra-facebook-cryptocurrency-368x276.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.popular-img7 {
+    height: 300px;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-368x276.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.popular-img8 {
+    height: 300px;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Star-Wars-Dutch-Oven-368x276.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -617,13 +636,77 @@ header {
     cursor: pointer;
 }
 
+.img-in4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 90px;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/mixingboard.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.img-in5 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 90px;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/download30.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.img-in6 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 90px;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/why-eth-is-shorter-than-others.jpeg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.img-in7 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 90px;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Pam-Angela-The-Office.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.img-in8 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 90px;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/RDR2-Screen.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    cursor: pointer;
+}
+
 ul a {
     text-decoration: none;
-    color: #999;
+    color: #555;
     font-size: 15px;
     font-weight: lighter;
     line-height: 27px;
-    padding: 5px;
 }
 
 .list-div ul li::before {
@@ -634,9 +717,144 @@ ul a {
 
 .inner-list {
     width: 100%;
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid #d1d1d1;
     list-style-type: none;
     list-style-position: outside;
-    text-align: left;
     display: inline-block;
+    padding: 6px 0;
+}
+
+.deal {
+    width: 270px;
+    height: 201px;
+    margin-bottom: 10px;
+}
+
+.python {
+    background-image: url("https://cdnp1.stackassets.com/4c6357549bbe196eac7a2a550f3cf2a380f39e44/store/7d5851d962ea8a62a7e9939f0efebc686b69d83821b63060d3109048021b/sale_19399_primary_image.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.marketing {
+    background-image: url("https://cdnp2.stackassets.com/9bfcf7d57291fdbaedfef0ca269c21a6264fa5d5/store/551a266bb1b658bfca7a48be3ae2739adcc71803ce42255c3b110e4bc779/sale_22291_primary_image.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.programmer {
+    background-image: url("https://cdnp3.stackassets.com/80ea22e2919f5826b2765ad58a70ffdb0b1e217a/store/de89b6bc5feee838ebfcc0ae7ccc32f5e1556f453b6f538292a1e60842a4/sale_22062_primary_image.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.premium {
+    background-image: url("https://cdnp2.stackassets.com/a0695bf765f5209ae845b845a7c316092891ea4a/store/54b7b525a385b2b1962c1fa649e01986728b5e98aa2a64343bbbf30681bd/sale_15929_primary_image.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.architech {
+    background-image: url("https://cdnp3.stackassets.com/f6768e41a9920bdcd086be7719365387529af7bc/store/68d73c3ec232ea7a6c53f2eb216430cc3019f60a64a6a8ed28f265785f1b/sale_21856_primary_image.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.book {
+    background-image: url("https://cdnp0.stackassets.com/0bcaf472e484efc5812ba81caff99e8d92b3e6e9/store/a608033f5bd5c0926a52360990ea5bd8a7241593db592e096d16df200727/product_30218_product_shots4.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.unlimited {
+    background-image: url("https://cdnp0.stackassets.com/72ec5f6be82aa335c0705e20589a5f323ebb7cbb/store/627accf6e5520cc7b240d6376619f1ade8d7b9cad265639ffc6acbe89a96/sale_20564_primary_image.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.digital {
+    background-image: url("https://cdnp1.stackassets.com/8d42ed94c5d1b5f03edbf017be3c9abc50c08e6a/store/d1f496d0e86783f61df9f78dca238fe1e7bf03690d064b709038ca4d648a/sale_22408_primary_image.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.old {
+    color: #aaa;
+}
+
+.social-media,
+.social-link {
+    height: 80px;
+    background: #0f0f0f;
+}
+
+.social-media ul {
+    width: 420px;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.s-media {
+    list-style: none;
+    background: #333;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-media a {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.social-link ul {
+    width: 380px;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.s-link {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.s-link a {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.last-info {
+    height: 100px;
+    background: #000;
 }
