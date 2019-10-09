@@ -165,16 +165,40 @@ header {
 }
 
 .inner-div {
+    width: 85%;
     position: absolute;
-    color: #fff;
+    line-height: 29px;
     z-index: 1;
+}
+
+.inner-div h5 a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#inner-div2 {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+
+#inner-div3 {
+    margin-top: 75px;
+    margin-left: 20px;
+    font-size: 25px;
+    line-height: 27px;
+    color: #fff;
 }
 
 .overlay2 {
     width: 100%;
     height: 100%;
     background: linear-gradient(-45deg, #000 10%, #000 80%);
-    opacity: 0.8;
+    opacity: 0.7;
     position: absolute;
 }
 
@@ -192,7 +216,7 @@ header {
     width: 100%;
     height: 100%;
     background: linear-gradient(-45deg, #000 10%, #000 80%);
-    opacity: 0.8;
+    opacity: 0.7;
     position: absolute;
 }
 
@@ -204,6 +228,12 @@ header {
 
 .list-inside {
     margin-right: 5px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.list-inside a {
+    color: #aaa;
 }
 
 .latest-news {
@@ -494,16 +524,19 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .most-popular {
-    width: 380px;
-    /* height: 780px; */
+    width: 32%;
     display: flex;
     flex-direction: column;
     position: relative;
     padding-bottom: 35px;
+}
+
+.special {
+    margin-right: 23.5px;
 }
 
 .most-popular h3 a {
@@ -518,9 +551,10 @@ header {
 
 .inside-text {
     position: absolute;
-    top: 230px;
+    top: 185px;
     left: 15px;
     line-height: 25px;
+    z-index: 1;
 }
 
 .inside-text h5 {
@@ -545,7 +579,7 @@ header {
 
 .inside-text span,
 .inside-text span a {
-    color: #999;
+    color: #d1d1d1;
     font-size: 14px;
     font-weight: 300px;
     text-decoration: none;
@@ -556,7 +590,7 @@ header {
 }
 
 .popular-img1 {
-    background-color: #000;
+    position: relative;
     height: 300px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/TikTok-Court-368x276.jpg");
     background-repeat: no-repeat;
@@ -566,6 +600,7 @@ header {
 }
 
 .popular-img2 {
+    position: relative;
     height: 300px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/cheap-dell-s3219d-monitor-368x276.jpg");
     background-repeat: no-repeat;
@@ -575,6 +610,7 @@ header {
 }
 
 .popular-img3 {
+    position: relative;
     height: 300px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Messenger-WhatsApp-Instagram-368x276.jpg");
     background-repeat: no-repeat;
@@ -584,6 +620,7 @@ header {
 }
 
 .popular-img4 {
+    position: relative;
     height: 300px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-368x276.png");
     background-repeat: no-repeat;
@@ -593,6 +630,7 @@ header {
 }
 
 .popular-img5 {
+    position: relative;
     height: 300px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/qusai-akoud-4c-S3I1IUUw-unsplash-368x276.jpg");
     background-repeat: no-repeat;
@@ -602,6 +640,7 @@ header {
 }
 
 .popular-img6 {
+    position: relative;
     height: 300px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/libra-facebook-cryptocurrency-368x276.jpg");
     background-repeat: no-repeat;
@@ -611,6 +650,7 @@ header {
 }
 
 .popular-img7 {
+    position: relative;
     height: 300px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-368x276.jpg");
     background-repeat: no-repeat;
@@ -620,12 +660,21 @@ header {
 }
 
 .popular-img8 {
+    position: relative;
     height: 300px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Star-Wars-Dutch-Oven-368x276.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
     cursor: pointer;
+}
+
+.img-overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 100%);
+    /* opacity: 0.7; */
+    position: absolute;
 }
 
 .text-img {
@@ -776,6 +825,9 @@ ul a {
     content: "\2022";
     color: #f42;
     font-weight: bolder;
+    position: absolute;
+    top: 10px;
+    left: 0;
 }
 
 .inner-list {
@@ -785,6 +837,8 @@ ul a {
     list-style-position: outside;
     display: inline-block;
     padding: 6px 0;
+    position: relative;
+    padding-left: 20px;
 }
 
 .deal {
@@ -919,4 +973,21 @@ ul a {
 .last-info {
     height: 100px;
     background: #000;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.last-info span {
+    color: #d1d1d1;
+    font-size: 15px;
+}
+
+#heart {
+    color: red;
+}
+
+.tnw-footer,
+.stack-img {
+    cursor: pointer;
 }
