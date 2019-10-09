@@ -129,10 +129,9 @@ header {
 .color-overlay {
     width: 100%;
     height: 100%;
-    background: linear-gradient(-10deg,#000 50%, #ff7400 100%);
+    background: linear-gradient(-10deg, #000 50%, #ff7400 100%);
     opacity: 0.8;
     position: absolute;
-
 }
 
 .tnw-words {
@@ -156,15 +155,55 @@ header {
 }
 
 .div-2 {
-    background: maroon;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/iPhone-11.00_07_21_14.Still008-796x448.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
     grid-column: 3 / 4;
     grid-row: 1 / 2;
+    position: relative;
+}
+
+.inner-div {
+    position: absolute;
+    color: #fff;
+    z-index: 1;
+}
+
+.overlay2 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, #000 10%, #000 80%);
+    opacity: 0.8;
+    position: absolute;
 }
 
 .div-3 {
-    background: cadetblue;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/github-ice-trump-microsoft-contract-796x405.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
     grid-column: 3 / 4;
     grid-row: 2 / 3;
+    position: relative;
+}
+
+.overlay3 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, #000 10%, #000 80%);
+    opacity: 0.8;
+    position: absolute;
+}
+
+.icon-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.list-inside {
+    margin-right: 5px;
 }
 
 .latest-news {
