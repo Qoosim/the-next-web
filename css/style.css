@@ -262,16 +262,18 @@ header {
     align-items: center;
 }
 
-#add-info a {
+.add-info a {
     color: #f42;
     font-size: 18px;
     text-decoration: none;
 }
 
-#add-info a:hover {
+.add-info a:hover {
     color: #000;
 }
 
+
+/* 
 #info {
     border-right: 1px solid #f42;
     padding-right: 10px;
@@ -285,7 +287,7 @@ header {
 
 #see-more {
     padding-left: 5px;
-}
+} */
 
 .outer-control a {
     color: #000;
@@ -447,11 +449,11 @@ header {
 
 .vega-div {
     width: 280px;
-    height: 350px;
+    /* height: 350px; */
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .vega {
@@ -524,7 +526,6 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
 }
 
 .most-popular {
@@ -673,7 +674,6 @@ header {
     width: 100%;
     height: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.3) 10%, rgba(0, 0, 0, 1) 100%);
-    /* opacity: 0.7; */
     position: absolute;
 }
 
@@ -992,32 +992,97 @@ ul a {
     cursor: pointer;
 }
 
-@media only screen and (min-width:430px){
+@media only screen and (min-width: 480px) {
     .container-1 {
         display: none;
     }
-
     .work {
         display: none;
     }
-
     .container-3 {
         font-size: 14px;
         text-align: center;
         justify-content: center;
     }
-
-
+    .header-link a {
+        margin-left: 15px;
+        color: #f42;
+        text-decoration: none;
+        font: 700 22px/18px 'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    .latest-news {
+        width: 480px;
+        margin-left: 8px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .outer-control {
+        width: 480px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        margin-bottom: 5px;
+    }
+    .inside-control {
+        width: 350px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .inside-control a {
+        line-height: 18px;
+        font-size: 14px;
+    }
+    .inside-control p {
+        margin-top: -1px;
+    }
+    .inner-p a {
+        font-size: 12px;
+    }
+    .news {
+        width: 80px;
+        height: 80px;
+    }
+    .vega-div {
+        width: 480px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .protocol {
+        background: rgba(255, 243, 241, 0.5);
+        padding: 10px;
+        height: 40px;
+    }
+    .info-link {
+        /* width: 480px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .add-info a {
+        color: #f42;
+        font-size: 18px;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-right: none;
+    }
 }
 
-@media only screen and (min-width:780px) {
+@media only screen and (min-width: 780px) {
     .container-1 {
         background: #000;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-
     .work {
         display: flex;
         flex-direction: row;
@@ -1029,21 +1094,21 @@ ul a {
         text-transform: uppercase;
         margin-left: 20px;
     }
-
     .container-3 {
         font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
-
-@media only screen and (min-width:1024px) {
+@media only screen and (min-width: 1024px) {
     .container-1 {
-    background: #000;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+        background: #000;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
-
     .work {
         display: flex;
         flex-direction: row;
@@ -1055,12 +1120,95 @@ ul a {
         text-transform: uppercase;
         margin-left: 20px;
     }
-
     .container-3 {
         height: 30px;
         background: yellow;
         display: flex;
-        flex-direction: row;
+        justify-content: flex-start;
         align-items: center;
+    }
+    .header-link a {
+        margin-left: 85px;
+        color: #f42;
+        text-decoration: none;
+        font: 700 27px/30px 'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    .news {
+        height: 140px;
+        width: 280px;
+        margin-bottom: 10px;
+    }
+    .latest-news {
+        width: 1200px;
+        margin: 0px auto 80px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+    .outer-control {
+        width: 280px;
+        line-height: 25px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .inside-control {
+        width: 280px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .inside-control a {
+        line-height: 20px;
+        font-size: 16px;
+    }
+    .inside-control p {
+        margin-top: 2px;
+    }
+    .inner-p a {
+        font-size: 14px;
+    }
+    .info-link {
+        width: 1260px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .vega-div {
+        width: 280px;
+        height: 350px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        /* margin-bottom: 120px; */
+    }
+    .protocol {
+        background: rgba(255, 243, 241, 0.5);
+        padding: 10px;
+        height: 120px;
+    }
+    .add-info a {
+        color: #f42;
+        font-size: 18px;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+    }
+    #info {
+        border-right: 1px solid #f42;
+        padding-right: 10px;
+    }
+    #email {
+        border-right: 1px solid #f42;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    #see-more {
+        padding-left: 5px;
     }
 }
