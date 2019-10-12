@@ -100,7 +100,7 @@ header {
 
 .tnw {
     margin: -42px 10px 100px 10px;
-    height: 400px;
+    height: 460px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
@@ -143,9 +143,11 @@ header {
     z-index: 1;
 }
 
-.tnw-words p {
+.tnw-words h5 a {
     text-transform: uppercase;
+    text-decoration: none;
     font-size: 14px;
+    color: #fff;
 }
 
 .tnw-words h1 {
@@ -237,7 +239,7 @@ header {
 }
 
 .latest-news {
-    width: 1200px;
+    width: 100%;
     margin: 0px auto 80px auto;
     display: flex;
     flex-direction: row;
@@ -255,7 +257,7 @@ header {
 }
 
 .info-link {
-    width: 1260px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -502,7 +504,7 @@ header {
 }
 
 .popular {
-    width: 1200px;
+    width: 100%;
     margin: -150px auto 0 auto;
     display: flex;
     flex-direction: row;
@@ -510,7 +512,8 @@ header {
 }
 
 .most-popular {
-    width: 32%;
+    /* width: 32%; */
+    width: 100%;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -897,10 +900,6 @@ ul a {
     text-decoration: line-through;
 }
 
-/* .new {
-    float: right;
-} */
-
 #add-info a {
     color: #f42;
     text-decoration: none;
@@ -912,15 +911,14 @@ ul a {
     color: #000;
 }
 
-
 .social-media,
 .social-link {
-    height: 80px;
-    background: #0f0f0f;
+    height: 90px;
+    background: #1b1b1b;
 }
 
 .social-media ul {
-    width: 420px;
+    width: 360px;
     margin: 0 auto;
     padding-top: 30px;
     display: flex;
@@ -964,7 +962,7 @@ ul a {
 
 .s-link a {
     font-size: 14px;
-    color: #aaa;
+    color: #d1d1d1;
 }
 
 .last-info {
@@ -1038,14 +1036,12 @@ ul a {
     .inside-control span {
         margin-top: -1px;
     }
-
     .inside-control span {
         display: inline;
         flex-direction: column;
         font-size: 14px;
         font-weight: 100;
     }
-    
     .inner-p a {
         font-size: 12px;
     }
@@ -1061,11 +1057,8 @@ ul a {
         margin-bottom: 30px;
     }
     .protocol {
-        background: rgba(255, 243, 241, 0.5);
-        padding: 10px;
         height: 40px;
     }
-
     .info-link {
         display: block;
         margin-bottom: 23px;
@@ -1073,27 +1066,80 @@ ul a {
     .info-link h3 {
         margin-left: -2px;
     }
-    
-    .add-info  {
+    .add-info {
         display: flex;
         flex-direction: column;
         margin-left: 10px;
     }
-
     .course-sale {
         display: flex;
         width: 470px;
     }
-
     #add-info {
         margin-bottom: 25px;
     }
-
     .popular {
+        width: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin: -90px 0 0 20px;
+        margin: -90px 0 0 0;
+    }
+    .social-media ul {
+        width: 315px;
+    }
+    .social-link ul {
+        width: 340px;
+        margin-top: -20px;
+    }
+    .s-link a {
+        font-size: 13px;
+    }
+    .last-info {
+        height: 120px;
+    }
+    .last-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tnw {
+        margin: -73px 0 170px 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 155px);
+        grid-row-gap: 10px;
+    }
+    .cover-img {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .div-2 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .div-3 {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    .cover-logo {
+        display: none;
+    }
+    .tnw-words {
+        line-height: 15px;
+        margin-bottom: -10px;
+    }
+    .tnw-words h5 a,
+    .inner-div h5 a {
+        font-size: 10px;
+    }
+    .tnw-words h1,
+    .inner-div h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #inner-div3 {
+        margin-top: 40px;
     }
 }
 
@@ -1160,7 +1206,7 @@ ul a {
         margin-bottom: 10px;
     }
     .latest-news {
-        width: 1200px;
+        width: 100%;
         margin: 0px auto 80px auto;
         display: flex;
         flex-direction: row;
@@ -1195,7 +1241,7 @@ ul a {
         font-size: 14px;
     }
     .info-link {
-        width: 1260px;
+        width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1214,7 +1260,7 @@ ul a {
         padding: 10px;
         height: 120px;
     }
-    .add-info  {
+    .add-info {
         display: flex;
         flex-direction: row;
     }
@@ -1230,12 +1276,64 @@ ul a {
     #see-more {
         padding-left: 5px;
     }
-
     .popular {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         margin: -150px auto 0 auto;
     }
-
+    .social-media ul {
+        width: 380px;
+    }
+    .s-link a {
+        font-size: 14px;
+    }
+    .last-info {
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tnw {
+        margin: -42px 10px 100px 10px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 10px;
+    }
+    .cover-img {
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+    }
+    .div-2 {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    .div-3 {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+    .tnw-words h5 a {
+        font-size: 14px;
+    }
+    .tnw-words h1 {
+        font-size: 55px;
+        line-height: 58px;
+    }
+    .cover-logo {
+        display: block;
+    }
+    /* #inner-div2 {
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 25px;
+        color: #fff;
+    }
+    #inner-div3 {
+        margin-top: 75px;
+        margin-left: 20px;
+        font-size: 25px;
+        line-height: 27px;
+        color: #fff;
+    } */
 }
