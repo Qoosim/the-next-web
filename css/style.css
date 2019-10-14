@@ -239,18 +239,17 @@ header {
 }
 
 .latest-news {
-    width: 75%;
-    /* margin: 0 85px 80px 85px; */
+    width: 50%;
+    margin: 0px auto 80px auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: space-around;
 }
 
 .outer-control {
-    /* width: 280px; */
-    width: 100%;
+    width: 20%;
     line-height: 25px;
     display: flex;
     flex-direction: column;
@@ -434,7 +433,7 @@ header {
 }
 
 .vega-div {
-    width: 280px;
+    width: 20%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -506,15 +505,14 @@ header {
 
 .popular {
     width: 100%;
-    margin: -150px 50px 0 50px;
+    /* margin: -150px 0px 0 0px; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .most-popular {
-    /* width: 32%; */
-    width: 100%;
+    width: 27%;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -989,6 +987,9 @@ ul a {
 }
 
 @media only screen and (min-width: 480px) {
+    main {
+        width: 100%;
+    }
     .container-1 {
         display: none;
     }
@@ -1007,8 +1008,7 @@ ul a {
         font: 700 22px/18px 'Segoe UI', Tahoma, Verdana, sans-serif;
     }
     .latest-news {
-        width: 480px;
-        margin-left: 8px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -1051,7 +1051,8 @@ ul a {
         height: 80px;
     }
     .vega-div {
-        width: 480px;
+        /* width: 480px; */
+        width: 100%;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -1074,20 +1075,35 @@ ul a {
     }
     .course-sale {
         display: flex;
-        width: 470px;
+        /* width: 470px; */
+        width: 95%;
     }
     #add-info {
         margin-bottom: 25px;
     }
     .popular {
-        width: 100%;
+        /* width: 95%; */
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin: -90px 0 0 10;
+        /* margin: -90px 0 0 10; */
+    }
+    .most-popular {
+        width: 95%;
+        margin: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 35px;
+    }
+    .social-media {
+        width: 100%;
     }
     .social-media ul {
         width: 315px;
+    }
+    .social-link {
+        width: 100%;
     }
     .social-link ul {
         width: 340px;
@@ -1106,7 +1122,7 @@ ul a {
         align-items: center;
     }
     .tnw {
-        margin: -73px 0 170px 10px;
+        margin: -73px 10px 170px 10px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 155px);
         grid-row-gap: 10px;
@@ -1141,6 +1157,12 @@ ul a {
     }
     #inner-div3 {
         margin-top: 40px;
+    }
+    .funding-rounds {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
     }
 }
 
@@ -1207,21 +1229,13 @@ ul a {
         margin-bottom: 10px;
     }
     .latest-news {
-        width: 100%;
-        margin: 0px 80px 80px 80px;
+        width: 85%;
+        margin: 0px 9.5% 80px auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         align-content: space-between;
-    }
-    .outer-control {
-        /* width: 280px; */
-        width: 100%;
-        line-height: 25px;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 30px;
     }
     .inside-control {
         width: 280px;
@@ -1243,15 +1257,31 @@ ul a {
         font-size: 14px;
     }
     .info-link {
-        width: 100%;
+        width: 94%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 1px;
     }
+    .funding-rounds {
+        width: 88.5%;
+        margin: 0px 5.5% 80px 5.5%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    .outer-control {
+        width: 20%;
+        line-height: 25px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
     .vega-div {
-        width: 280px;
+        width: 24%;
         height: 350px;
         position: relative;
         display: flex;
@@ -1279,10 +1309,12 @@ ul a {
         padding-left: 5px;
     }
     .popular {
+        width: 90.5%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin: -150px 80px 0 80px;
+        justify-content: space-between;
+        /* margin: -150px 6% 0 6%; */
     }
     .social-media ul {
         width: 380px;
