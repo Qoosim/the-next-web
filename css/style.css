@@ -239,17 +239,17 @@ header {
 }
 
 .latest-news {
-    width: 100%;
+    width: 50%;
     margin: 0px auto 80px auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: space-around;
 }
 
 .outer-control {
-    width: 280px;
+    width: 20%;
     line-height: 25px;
     display: flex;
     flex-direction: column;
@@ -433,7 +433,7 @@ header {
 }
 
 .vega-div {
-    width: 280px;
+    width: 20%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -512,8 +512,7 @@ header {
 }
 
 .most-popular {
-    /* width: 32%; */
-    width: 100%;
+    width: 28%;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -1206,20 +1205,13 @@ ul a {
         margin-bottom: 10px;
     }
     .latest-news {
-        width: 100%;
-        margin: 0px auto 80px auto;
+        width: 85%;
+        margin: 0px 9.5% 80px auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
-        align-content: space-around;
-    }
-    .outer-control {
-        width: 280px;
-        line-height: 25px;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 30px;
+        justify-content: space-between;
+        align-content: space-between;
     }
     .inside-control {
         width: 280px;
@@ -1241,15 +1233,30 @@ ul a {
         font-size: 14px;
     }
     .info-link {
-        width: 100%;
+        width: 94%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 1px;
     }
+    .funding-rounds {
+        width: 88.5%;
+        margin: 0px 5.5% 80px 5.5%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-content: space-between; 
+    }
+    .outer-control {
+        width: 20%;
+        line-height: 25px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
     .vega-div {
-        width: 280px;
+        width:24%;
         height: 350px;
         position: relative;
         display: flex;
@@ -1277,10 +1284,12 @@ ul a {
         padding-left: 5px;
     }
     .popular {
+        width: 90.5%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin: -150px auto 0 auto;
+        justify-content: space-between;
+        margin: -150px 6% 0 6%;
     }
     .social-media ul {
         width: 380px;
