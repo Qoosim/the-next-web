@@ -987,6 +987,11 @@ ul a {
 }
 
 @media only screen and (min-width: 480px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 0 20px 0 20px;
+    }
     .container-1 {
         display: none;
     }
@@ -999,21 +1004,19 @@ ul a {
         justify-content: center;
     }
     .header-link a {
-        margin-left: 15px;
+        margin-left: 0;
         color: #f42;
         text-decoration: none;
         font: 700 22px/18px 'Segoe UI', Tahoma, Verdana, sans-serif;
     }
     .latest-news {
-        width: 480px;
-        margin-left: 8px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
     }
     .outer-control {
-        width: 480px;
-        margin-left: 10px;
+        width: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -1044,12 +1047,15 @@ ul a {
     .inner-p a {
         font-size: 12px;
     }
+    .news-article h3 {
+        margin-left: 0;
+    }
     .news {
         width: 80px;
         height: 80px;
     }
     .vega-div {
-        width: 480px;
+        width: 100%;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -1062,17 +1068,13 @@ ul a {
         display: block;
         margin-bottom: 23px;
     }
-    .info-link h3 {
-        margin-left: -2px;
-    }
     .add-info {
         display: flex;
         flex-direction: column;
-        margin-left: 10px;
     }
     .course-sale {
         display: flex;
-        width: 470px;
+        width: 100%;
     }
     #add-info {
         margin-bottom: 25px;
@@ -1082,7 +1084,10 @@ ul a {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin: -90px 0 0 0;
+        margin: 20px 0 0 0;
+    }
+    .most-popular {
+        width: 100%;
     }
     .social-media ul {
         width: 315px;
@@ -1104,7 +1109,7 @@ ul a {
         align-items: center;
     }
     .tnw {
-        margin: -73px 0 170px 10px;
+        margin: -73px 0 170px 0;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 155px);
         grid-row-gap: 10px;
@@ -1169,6 +1174,10 @@ ul a {
 }
 
 @media only screen and (min-width: 1024px) {
+    .container {
+        margin: 0;
+        padding: 0;
+    }
     .container-1 {
         background: #000;
         display: flex;
@@ -1288,7 +1297,7 @@ ul a {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         margin: -150px 6% 0 6%;
     }
     .social-media ul {
@@ -1332,17 +1341,5 @@ ul a {
     .cover-logo {
         display: block;
     }
-    /* #inner-div2 {
-        margin-top: 40px;
-        margin-left: 20px;
-        font-size: 25px;
-        color: #fff;
-    }
-    #inner-div3 {
-        margin-top: 75px;
-        margin-left: 20px;
-        font-size: 25px;
-        line-height: 27px;
-        color: #fff;
-    } */
+   
 }
