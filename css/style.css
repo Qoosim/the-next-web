@@ -505,14 +505,14 @@ header {
 
 .popular {
     width: 100%;
-    margin: -150px auto 0 auto;
+    /* margin: -150px 0px 0 0px; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .most-popular {
-    width: 28%;
+    width: 27%;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -987,10 +987,15 @@ ul a {
 }
 
 @media only screen and (min-width: 480px) {
+<<<<<<< HEAD
     .container {
         width: 100%;
         margin: 0;
         padding: 0 20px 0 20px;
+=======
+    main {
+        width: 100%;
+>>>>>>> 49a3a5678a46254b125d2f33dd7d2e5c861fcf71
     }
     .container-1 {
         display: none;
@@ -1055,6 +1060,10 @@ ul a {
         height: 80px;
     }
     .vega-div {
+<<<<<<< HEAD
+=======
+        /* width: 480px; */
+>>>>>>> 49a3a5678a46254b125d2f33dd7d2e5c861fcf71
         width: 100%;
         position: relative;
         display: flex;
@@ -1074,23 +1083,45 @@ ul a {
     }
     .course-sale {
         display: flex;
+<<<<<<< HEAD
         width: 100%;
+=======
+        /* width: 470px; */
+        width: 95%;
+>>>>>>> 49a3a5678a46254b125d2f33dd7d2e5c861fcf71
     }
     #add-info {
         margin-bottom: 25px;
     }
     .popular {
-        width: 100%;
+        /* width: 95%; */
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+<<<<<<< HEAD
         margin: 20px 0 0 0;
     }
     .most-popular {
+=======
+        /* margin: -90px 0 0 10; */
+    }
+    .most-popular {
+        width: 95%;
+        margin: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 35px;
+    }
+    .social-media {
+>>>>>>> 49a3a5678a46254b125d2f33dd7d2e5c861fcf71
         width: 100%;
     }
     .social-media ul {
         width: 315px;
+    }
+    .social-link {
+        width: 100%;
     }
     .social-link ul {
         width: 340px;
@@ -1109,7 +1140,11 @@ ul a {
         align-items: center;
     }
     .tnw {
+<<<<<<< HEAD
         margin: -73px 0 170px 0;
+=======
+        margin: -73px 10px 170px 10px;
+>>>>>>> 49a3a5678a46254b125d2f33dd7d2e5c861fcf71
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 155px);
         grid-row-gap: 10px;
@@ -1144,6 +1179,12 @@ ul a {
     }
     #inner-div3 {
         margin-top: 40px;
+    }
+    .funding-rounds {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
     }
 }
 
@@ -1254,8 +1295,9 @@ ul a {
         margin: 0px 5.5% 80px 5.5%;
         display: flex;
         flex-wrap: nowrap;
+        flex-direction: row;
         justify-content: space-between;
-        align-content: space-between; 
+        align-content: space-between;
     }
     .outer-control {
         width: 20%;
@@ -1265,7 +1307,7 @@ ul a {
         margin-bottom: 30px;
     }
     .vega-div {
-        width:24%;
+        width: 24%;
         height: 350px;
         position: relative;
         display: flex;
@@ -1297,8 +1339,8 @@ ul a {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        /* justify-content: space-between; */
-        margin: -150px 6% 0 6%;
+        justify-content: space-between;
+        /* margin: -150px 6% 0 6%; */
     }
     .social-media ul {
         width: 380px;
@@ -1341,5 +1383,12 @@ ul a {
     .cover-logo {
         display: block;
     }
-   
+    .most-popular {
+        width: 32%;
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 35px;
+    }
 }
