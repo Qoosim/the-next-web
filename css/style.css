@@ -987,15 +987,10 @@ ul a {
 }
 
 @media only screen and (min-width: 480px) {
-<<<<<<< HEAD
     .container {
         width: 100%;
         margin: 0;
         padding: 0 20px 0 20px;
-=======
-    main {
-        width: 100%;
->>>>>>> 49a3a5678a46254b125d2f33dd7d2e5c861fcf71
     }
     .container-1 {
         display: none;
@@ -1140,11 +1135,7 @@ ul a {
         align-items: center;
     }
     .tnw {
-<<<<<<< HEAD
         margin: -73px 0 170px 0;
-=======
-        margin: -73px 10px 170px 10px;
->>>>>>> 49a3a5678a46254b125d2f33dd7d2e5c861fcf71
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 155px);
         grid-row-gap: 10px;
