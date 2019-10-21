@@ -240,12 +240,9 @@ header {
 
 .latest-news {
     width: 50%;
-    /* margin: 0px auto 80px auto; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* justify-content: space-between;
-    align-content: space-around; */
 }
 
 .outer-control {
@@ -1196,17 +1193,6 @@ ul a {
         grid-column: 3 / 4;
         grid-row: 2 / 3;
     }
-    /* .work {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        align-items: center;
-        list-style: none;
-        font: 600 15px Georgia, 'Times New Roman', Times, serif;
-        text-transform: uppercase;
-        margin-left: 20px;
-    } */
     .container-3 {
         display: none;
     }
@@ -1258,7 +1244,7 @@ ul a {
         align-content: space-between;
     }
     .vega-div {
-        width: 33.33%;
+        width: 31.44%;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -1266,6 +1252,89 @@ ul a {
     }
     .hide {
         display: none;
+    }
+    .protocol {
+        height: 140px;
+    }
+    .info-link {
+        width: 100%;
+    }
+    .add-info {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    #see-more {
+        border-right: 1px solid #f42;
+        padding-right: 10px;
+        line-height: 22px;
+    }
+    #email {
+        border-right: 1px solid #f42;
+        padding-right: 10px;
+        padding-left: 10px;
+        line-height: 22px;
+    }
+    #info {
+        padding-left: 10px;
+    }
+    .popular {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .most-popular {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-bottom: 35px;
+    }
+    .course-sale {
+        display: flex;
+        width: 93%;
+        margin-bottom: 0px;
+    }
+    .tnw-words h5 a {
+        font-size: 13px;
+    }
+    .tnw-words h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    #inner-div2 {
+        margin-top: 5px;
+        margin-left: 20px;
+        font-weight: bold;
+        color: #fff;
+        line-height: 24px;
+    }
+    #inner-div2 h3,
+    #inner-div3 h3 {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 18px;
+    }
+    #inner-div3 {
+        margin-top: 5px;
+        margin-left: 20px;
+        font-size: 25px;
+        line-height: 24px;
+        color: #fff;
+    }
+    .work {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        /* list-style: none;
+        font: 600 15px Georgia, 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        margin-left: 20px; */
     }
 }
 
@@ -1386,6 +1455,7 @@ ul a {
         padding-right: 10px;
     }
     #see-more {
+        border-right: none;
         padding-left: 5px;
     }
     .popular {
@@ -1439,7 +1509,6 @@ ul a {
     }
     .most-popular {
         width: 32%;
-        /* width: 100%; */
         display: flex;
         flex-direction: column;
         position: relative;
