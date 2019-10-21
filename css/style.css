@@ -240,12 +240,12 @@ header {
 
 .latest-news {
     width: 50%;
-    margin: 0px auto 80px auto;
+    /* margin: 0px auto 80px auto; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: space-around;
+    /* justify-content: space-between;
+    align-content: space-around; */
 }
 
 .outer-control {
@@ -505,7 +505,6 @@ header {
 
 .popular {
     width: 100%;
-    /* margin: -150px 0px 0 0px; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1055,7 +1054,6 @@ ul a {
         height: 80px;
     }
     .vega-div {
-        /* width: 480px; */
         width: 100%;
         position: relative;
         display: flex;
@@ -1075,18 +1073,15 @@ ul a {
     }
     .course-sale {
         display: flex;
-        /* width: 470px; */
         width: 95%;
     }
     #add-info {
         margin-bottom: 25px;
     }
     .popular {
-        /* width: 95%; */
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        /* margin: -90px 0 0 10; */
     }
     .most-popular {
         width: 95%;
@@ -1166,14 +1161,42 @@ ul a {
     }
 }
 
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 0 20px 0 20px;
+    }
     .container-1 {
         background: #000;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-    .work {
+    .right {
+        display: none;
+    }
+    .tnw {
+        margin: -72px 10px 100px 10px;
+        height: 250px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 10px;
+    }
+    .cover-img {
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+    }
+    .div-2 {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    .div-3 {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+    /* .work {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -1183,12 +1206,66 @@ ul a {
         font: 600 15px Georgia, 'Times New Roman', Times, serif;
         text-transform: uppercase;
         margin-left: 20px;
-    }
+    } */
     .container-3 {
-        font-size: 16px;
+        display: none;
+    }
+    .latest-news {
+        width: 100%;
+        margin: 0 auto;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .outer-control {
+        width: 33%;
+        line-height: 25px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+    .news {
+        width: 200px;
+        height: 110px;
+        margin-bottom: 10px;
+    }
+    .inside-control {
+        width: 200px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+    }
+    .inside-control a {
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .inside-control p,
+    .inside-control span {
+        margin-top: 2px;
+    }
+    .inner-p a {
+        font-size: 12px;
+    }
+    .funding-rounds {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+    .vega-div {
+        width: 33.33%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .hide {
+        display: none;
     }
 }
 
@@ -1228,13 +1305,12 @@ ul a {
         font: 700 27px/30px 'Segoe UI', Tahoma, Verdana, sans-serif;
     }
     .news {
-        height: 140px;
-        width: 280px;
+        width: 270px;
+        height: 135px;
         margin-bottom: 10px;
     }
     .latest-news {
-        width: 85%;
-        margin: 0px 9.5% 80px auto;
+        width: 95%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -1278,7 +1354,7 @@ ul a {
         align-content: space-between;
     }
     .outer-control {
-        width: 20%;
+        width: 24%;
         line-height: 25px;
         display: flex;
         flex-direction: column;
@@ -1318,7 +1394,6 @@ ul a {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        /* margin: -150px 6% 0 6%; */
     }
     .social-media ul {
         width: 380px;
@@ -1333,6 +1408,7 @@ ul a {
         justify-content: center;
     }
     .tnw {
+        height: 460px;
         margin: -42px 10px 100px 10px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
