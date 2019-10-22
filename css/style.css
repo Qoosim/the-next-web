@@ -62,8 +62,11 @@ header {
     font-weight: bold;
 }
 
+.header-link {
+    margin-left: 30px;
+}
+
 .header-link a {
-    margin-left: 85px;
     color: #f42;
     text-decoration: none;
     font: 700 27px/30px 'Segoe UI', Tahoma, Verdana, sans-serif;
@@ -305,10 +308,13 @@ header {
 }
 
 .latest-news {
-    width: 50%;
+    /* width: 50%; */
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    /* justify-content: space-between; */
 }
 
 .outer-control {
@@ -988,28 +994,23 @@ ul a {
         margin: 0;
         padding: 0 20px 0 20px;
     }
-
     .container-1 {
         display: none;
     }
-
     .work {
         display: none;
     }
-
     .container-3 {
         font-size: 14px;
         text-align: center;
         justify-content: center;
     }
-
     .header-link a {
         margin-left: 0;
         color: #f42;
         text-decoration: none;
         font: 700 22px/18px 'Segoe UI', Tahoma, Verdana, sans-serif;
     }
-
     .latest-news {
         width: 100%;
         margin-bottom: 50px;
@@ -1017,7 +1018,6 @@ ul a {
         flex-direction: column;
         flex-wrap: nowrap;
     }
-
     .outer-control {
         width: 100%;
         display: flex;
@@ -1026,7 +1026,6 @@ ul a {
         justify-content: flex-start;
         margin-bottom: 5px;
     }
-
     .inside-control {
         width: 350px;
         margin-left: 15px;
@@ -1034,37 +1033,30 @@ ul a {
         flex-direction: column;
         flex-wrap: wrap;
     }
-
     .inside-control a {
         line-height: 18px;
         font-size: 14px;
     }
-
     .inside-control p,
     .inside-control span {
         margin-top: -1px;
     }
-
     .inside-control span {
         display: inline;
         flex-direction: column;
         font-size: 14px;
         font-weight: 100;
     }
-
     .inner-p a {
         font-size: 12px;
     }
-
     .news-article h3 {
         margin-left: 0;
     }
-
     .news {
         width: 80px;
         height: 80px;
     }
-
     .vega-div {
         width: 100%;
         position: relative;
@@ -1072,36 +1064,29 @@ ul a {
         flex-direction: column;
         margin-bottom: 30px;
     }
-
     .protocol {
         height: 40px;
     }
-
     .info-link {
         display: block;
         margin-bottom: 23px;
     }
-
     .add-info {
         display: flex;
         flex-direction: column;
     }
-
     .course-sale {
         display: flex;
         width: 95%;
     }
-
     #add-info {
         margin-bottom: 25px;
     }
-
     .popular {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
-
     .most-popular {
         width: 95%;
         margin: 20px 10px;
@@ -1110,85 +1095,68 @@ ul a {
         position: relative;
         padding-bottom: 35px;
     }
-
     .social-media {
         width: 100%;
     }
-
     .social-media ul {
         width: 315px;
     }
-
     .social-link {
         width: 100%;
     }
-
     .social-link ul {
         width: 340px;
         margin-top: -20px;
     }
-
     .s-link a {
         font-size: 13px;
     }
-
     .last-info {
         height: 120px;
     }
-
     .last-info {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-
     .tnw {
         margin: -73px 0 120px 0;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 155px);
         grid-row-gap: 10px;
     }
-
     .cover-img {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
-
     .div-2 {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
     }
-
     .div-3 {
         grid-column: 1 / 2;
         grid-row: 3 / 4;
     }
-
     .cover-logo {
         display: none;
     }
-
     .tnw-words {
         line-height: 15px;
         margin-bottom: -10px;
     }
-
     .tnw-words h5 a,
     .inner-div h5 a {
         font-size: 10px;
     }
-
     .tnw-words h1,
     .inner-div h3 {
         font-size: 20px;
         line-height: 25px;
     }
-
     #inner-div3 {
         margin-top: 40px;
     }
-
     .funding-rounds {
         width: 95%;
         display: flex;
@@ -1203,18 +1171,15 @@ ul a {
         margin: 0;
         padding: 0 20px 0 20px;
     }
-
     .container-1 {
         background: #000;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-
     .right {
         display: none;
     }
-
     .tnw {
         margin: -72px 10px 100px 10px;
         height: 250px;
@@ -1223,26 +1188,21 @@ ul a {
         grid-template-rows: auto;
         grid-gap: 10px;
     }
-
     .cover-img {
         grid-column: 1 / 3;
         grid-row: 1 / 3;
     }
-
     .div-2 {
         grid-column: 3 / 4;
         grid-row: 1 / 2;
     }
-
     .div-3 {
         grid-column: 3 / 4;
         grid-row: 2 / 3;
     }
-
     .container-3 {
         display: none;
     }
-
     .latest-news {
         width: 100%;
         margin: 0 auto;
@@ -1250,7 +1210,6 @@ ul a {
         flex-direction: row;
         flex-wrap: wrap;
     }
-
     .outer-control {
         width: 33%;
         line-height: 25px;
@@ -1259,13 +1218,11 @@ ul a {
         flex-wrap: wrap;
         margin-bottom: 30px;
     }
-
     .news {
         width: 200px;
         height: 110px;
         margin-bottom: 10px;
     }
-
     .inside-control {
         width: 200px;
         margin: 0;
@@ -1274,21 +1231,17 @@ ul a {
         justify-content: flex-start;
         flex-wrap: nowrap;
     }
-
     .inside-control a {
         line-height: 20px;
         font-size: 14px;
     }
-
     .inside-control p,
     .inside-control span {
         margin-top: 2px;
     }
-
     .inner-p a {
         font-size: 12px;
     }
-
     .funding-rounds {
         width: 100%;
         display: flex;
@@ -1297,7 +1250,6 @@ ul a {
         justify-content: space-between;
         align-content: space-between;
     }
-
     .vega-div {
         width: 31.44%;
         position: relative;
@@ -1305,19 +1257,15 @@ ul a {
         flex-direction: column;
         margin-bottom: 30px;
     }
-
     .hide {
         display: none;
     }
-
     .protocol {
         height: 140px;
     }
-
     .info-link {
         width: 100%;
     }
-
     .add-info {
         display: flex;
         flex-direction: row-reverse;
@@ -1325,31 +1273,26 @@ ul a {
         font-size: 18px;
         line-height: 22px;
     }
-
     #see-more {
         border-right: 1px solid #f42;
         padding-right: 10px;
         line-height: 22px;
     }
-
     #email {
         border-right: 1px solid #f42;
         padding-right: 10px;
         padding-left: 10px;
         line-height: 22px;
     }
-
     #info {
         padding-left: 10px;
     }
-
     .popular {
         width: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-
     .most-popular {
         width: 45%;
         display: flex;
@@ -1357,22 +1300,18 @@ ul a {
         position: relative;
         padding-bottom: 35px;
     }
-
     .course-sale {
         display: flex;
         width: 93%;
         margin-bottom: 0;
     }
-
     .tnw-words h5 a {
         font-size: 13px;
     }
-
     .tnw-words h1 {
         font-size: 35px;
         line-height: 40px;
     }
-
     #inner-div2 {
         margin-top: 5px;
         margin-left: 20px;
@@ -1380,14 +1319,12 @@ ul a {
         color: #fff;
         line-height: 24px;
     }
-
     #inner-div2 h3,
     #inner-div3 h3 {
         font-size: 16px;
         font-weight: bold;
         line-height: 18px;
     }
-
     #inner-div3 {
         margin-top: 5px;
         margin-left: 20px;
@@ -1395,7 +1332,6 @@ ul a {
         line-height: 24px;
         color: #fff;
     }
-
     .work {
         display: flex;
         flex-direction: row;
@@ -1403,20 +1339,17 @@ ul a {
         justify-content: space-between;
         align-items: center;
     }
-
     @media only screen and (min-width: 1024px) {
         .container {
-            margin: 0;
-            padding: 0 20px 0 20px;
+            width: 90%;
+            margin: 0 auto;
         }
-
         .container-1 {
             background: #000;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
         }
-
         .work {
             display: flex;
             flex-direction: row;
@@ -1428,7 +1361,6 @@ ul a {
             text-transform: uppercase;
             margin-left: 20px;
         }
-
         .container-3 {
             height: 30px;
             background: yellow;
@@ -1436,30 +1368,23 @@ ul a {
             justify-content: flex-start;
             align-items: center;
         }
-
         .header-link a {
-            margin-left: 85px;
             color: #f42;
             text-decoration: none;
             font: 700 27px/30px 'Segoe UI', Tahoma, Verdana, sans-serif;
         }
-
         .news {
             width: 270px;
             height: 202px;
             margin-bottom: 10px;
         }
-
         .latest-news {
-            width: 93%;
+            width: 100%;
             margin: 0 auto;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            justify-content: space-between;
-            align-content: space-between;
         }
-
         .inside-control {
             width: 280px;
             margin: 0;
@@ -1468,40 +1393,35 @@ ul a {
             justify-content: flex-start;
             flex-wrap: wrap;
         }
-
         .inside-control a {
             line-height: 20px;
             font-size: 16px;
         }
-
         .inside-control p,
         .inside-control span {
             margin-top: 2px;
         }
-
         .inner-p a {
             font-size: 14px;
         }
-
         .info-link {
-            width: 94%;
+            width: 95%;
+            margin: 0 auto;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
             margin-bottom: 1px;
         }
-
         .funding-rounds {
-            width: 88.5%;
-            margin: 0 5.5% 80px 5.5%;
+            width: 95%;
+            margin: 0 auto;
             display: flex;
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
             flex-direction: row;
             justify-content: space-between;
             align-content: space-between;
         }
-
         .outer-control {
             width: 24%;
             line-height: 25px;
@@ -1509,7 +1429,6 @@ ul a {
             flex-direction: column;
             margin-bottom: 30px;
         }
-
         .vega-div {
             width: 24%;
             height: 350px;
@@ -1517,42 +1436,35 @@ ul a {
             display: flex;
             flex-direction: column;
         }
-
         .protocol {
             background: rgba(255, 243, 241, 0.5);
             padding: 10px;
             height: 120px;
         }
-
         .add-info {
             display: flex;
             flex-direction: row;
         }
-
         #info {
             border-right: 1px solid #f42;
             padding-right: 10px;
         }
-
         #email {
             border-right: 1px solid #f42;
             padding-left: 5px;
             padding-right: 10px;
         }
-
         #see-more {
             border-right: none;
             padding-left: 5px;
         }
-
         .popular {
-            width: 96.5%;
-            margin-left: 5%;
+            width: 100%;
+            /* margin-left: 5%; */
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
         }
-
         .most-popular {
             width: 29%;
             display: flex;
@@ -1560,22 +1472,18 @@ ul a {
             position: relative;
             padding-bottom: 35px;
         }
-
         .social-media ul {
             width: 380px;
         }
-
         .s-link a {
             font-size: 14px;
         }
-
         .last-info {
             height: 100px;
             display: flex;
             flex-direction: row;
             justify-content: center;
         }
-
         .tnw {
             height: 460px;
             margin: -42px 10px 100px 10px;
@@ -1584,31 +1492,25 @@ ul a {
             grid-template-rows: auto;
             grid-gap: 10px;
         }
-
         .cover-img {
             grid-column: 1 / 3;
             grid-row: 1 / 3;
         }
-
         .div-2 {
             grid-column: 3 / 4;
             grid-row: 1 / 2;
         }
-
         .div-3 {
             grid-column: 3 / 4;
             grid-row: 2 / 3;
         }
-
         .tnw-words h5 a {
             font-size: 14px;
         }
-
         .tnw-words h1 {
             font-size: 55px;
             line-height: 58px;
         }
-
         .cover-logo {
             display: block;
         }
