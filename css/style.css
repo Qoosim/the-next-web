@@ -564,7 +564,7 @@ header {
 
 .inside-text {
     position: absolute;
-    top: 185px;
+    top: 145px;
     left: 15px;
     line-height: 25px;
     z-index: 1;
