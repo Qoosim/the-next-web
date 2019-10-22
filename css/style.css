@@ -63,7 +63,7 @@ header {
 }
 
 .header-link {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .header-link a {
@@ -588,7 +588,8 @@ header {
 
 .popular-img1 {
     position: relative;
-    height: 300px;
+    width: 368px;
+    height: 276px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/TikTok-Court-368x276.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -598,7 +599,8 @@ header {
 
 .popular-img2 {
     position: relative;
-    height: 300px;
+    width: 368px;
+    height: 276px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/cheap-dell-s3219d-monitor-368x276.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -608,7 +610,8 @@ header {
 
 .popular-img3 {
     position: relative;
-    height: 300px;
+    width: 368px;
+    height: 276px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Messenger-WhatsApp-Instagram-368x276.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -618,7 +621,8 @@ header {
 
 .popular-img4 {
     position: relative;
-    height: 300px;
+    width: 368px;
+    height: 276px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-368x276.png");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -628,7 +632,8 @@ header {
 
 .popular-img5 {
     position: relative;
-    height: 300px;
+    width: 368px;
+    height: 276px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/qusai-akoud-4c-S3I1IUUw-unsplash-368x276.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -638,7 +643,8 @@ header {
 
 .popular-img6 {
     position: relative;
-    height: 300px;
+    width: 368px;
+    height: 276px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/libra-facebook-cryptocurrency-368x276.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -648,7 +654,8 @@ header {
 
 .popular-img7 {
     position: relative;
-    height: 300px;
+    width: 368px;
+    height: 276px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-368x276.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -658,7 +665,8 @@ header {
 
 .popular-img8 {
     position: relative;
-    height: 300px;
+    width: 368px;
+    height: 276px;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Star-Wars-Dutch-Oven-368x276.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -1378,13 +1386,6 @@ ul a {
             height: 202px;
             margin-bottom: 10px;
         }
-        .latest-news {
-            width: 100%;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
         .inside-control {
             width: 280px;
             margin: 0;
@@ -1405,7 +1406,7 @@ ul a {
             font-size: 14px;
         }
         .info-link {
-            width: 95%;
+            width: 97%;
             margin: 0 auto;
             display: flex;
             flex-direction: row;
@@ -1414,13 +1415,33 @@ ul a {
             margin-bottom: 1px;
         }
         .funding-rounds {
-            width: 95%;
+            width: 97%;
             margin: 0 auto;
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
             justify-content: space-between;
             align-content: space-between;
+        }
+        .popular {
+            width: 97%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+        .special {
+            margin-right: 50px;
+        }
+        .text-img {
+            position: relative;
+            width: 368px;
+            height: 90px;
+            background: #fff3f1;
+            margin-top: 2px;
+        }
+        .inner-list {
+            width: 368px;
         }
         .outer-control {
             width: 24%;
@@ -1457,13 +1478,6 @@ ul a {
         #see-more {
             border-right: none;
             padding-left: 5px;
-        }
-        .popular {
-            width: 100%;
-            /* margin-left: 5%; */
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
         }
         .most-popular {
             width: 29%;
