@@ -1005,9 +1005,6 @@ ul a {
         display: none;
     }
     .container-3 {
-        /* font-size: 14px;
-        text-align: center;
-        justify-content: center; */
         display: none;
     }
     .header-link {
@@ -1017,6 +1014,31 @@ ul a {
         color: #f42;
         text-decoration: none;
         font: 700 22px/18px 'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    #menu-button {
+        margin-right: 8px;
+        cursor: pointer;
+    }
+    .right-2 {
+        width: 50px;
+        margin-right: -360px;
+        border-left: 1px solid rgba(191, 185, 185, 0.4);
+        border-right: 1px solid rgba(191, 185, 185, 0.4);
+        line-height: 45px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .main-header {
+        position: relative;
+    }
+    #tnw-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+    }
+    #tnw-logo img {
+        height: 60px;
     }
     .outer-control {
         width: 100%;
@@ -1187,6 +1209,33 @@ ul a {
     .right {
         display: none;
     }
+    #menu-button {
+        display: none;
+    }
+    .right-2 {
+        width: 30px;
+        margin-right: 20px;
+        border-left: 1px solid rgba(191, 185, 185, 0.4);
+        border-right: none;
+        line-height: 45px;
+        padding-left: 20px;
+        padding-right: 0;
+    }
+    .main-header {
+        position: relative;
+    }
+    #tnw-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+    }
+    #tnw-logo img {
+        height: 78px;
+    }
+    .left-nav {
+        margin-left: 120px;
+    }
     .tnw {
         margin: -72px 10px 100px 10px;
         height: 250px;
@@ -1343,6 +1392,7 @@ ul a {
         flex-wrap: nowrap;
         justify-content: space-between;
         align-items: center;
+        margin-left: 120px;
     }
 }
 
@@ -1356,6 +1406,9 @@ ul a {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+    .left-nav {
+        margin-left: 20px;
     }
     .work {
         display: flex;
@@ -1382,6 +1435,21 @@ ul a {
         color: #f42;
         text-decoration: none;
         font: 700 27px/30px 'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    #menu-button {
+        display: none;
+    }
+    .right-2 {
+        width: 30px;
+        margin-right: 20px;
+        border-left: 1px solid rgba(191, 185, 185, 0.4);
+        border-right: none;
+        line-height: 45px;
+        padding-left: 20px;
+        padding-right: 0;
+    }
+    #tnw-logo{
+        display: none;
     }
     #inner-div2,
     #inner-div3 {
