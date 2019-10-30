@@ -12,7 +12,7 @@ This project is a collaborative responsive design microverse project on The-Next
 
 **Live Version**
 
-Check out [Live Version](https://raw.githack.com/Qoosim/the-next-web/next-web/index.html) of this project.
+Check out [Live Version](https://rawcdn.githack.com/Qoosim/the-next-web/cf7ca5e025cc7fc751a7300ecbf3be9c9689734f/index.html) of this project.
 
 **Contributions**
 
